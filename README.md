@@ -39,7 +39,7 @@ The dataset was created by scraping images from various online sources. These im
 #### Accuracy graph
 With this accuracy plot, it shows that training and validation accuracy over 30 epochs. At the beginning, both training and validation accuracy improve steadily. After around 7 to 10 epochs, the training accuracy continues to increase, but the validation accuracy was kind of fluctuating slightly. With this it shows that the model begin to overfit after around 15 20 epochs. The validation accuracy remains stable but was not improving , while the training accuracy continues to rise, indicating that the model is learning more about the training data but is finding it difficult to generalizing better to unseen data.
 
-
+![](images/2.png)
 #### loss graph
 By plotting the loss plot for the above model i was able to get a more view of the model. Which shows how the model's training and validation loss changed over the training epochs.At the start, both the training and validation losses decrease rapidly, which indicates that the model is learning well during the early stages of training. On getting to the 10th epoch, the validation loss starts to fluctuate and later started g increasing after the 15th epoch, while the training loss continues to decrease toward zero.
 
@@ -47,10 +47,12 @@ This behavior indicates overfitting. The model is learning to fit the training d
 
 
 ### test accuracy
-
+![](images/5.png)
 
 
 ### After applying Data Augumentation
+
+![](images/3.png)
 
 #### Augumented and non-augumented accuracy graph
 
@@ -59,6 +61,7 @@ This graph shows how my model performs with and without data augmentation. For t
 On the other hand, the augmented data (blue lines) shows more balanced learning. The accuracy improves more slowly and stays stable across both training and validation data around 25 epochs. This indicates that the model generalizes better, even though it takes longer to reach a high level of accuracy.
 
 
+![](images/4.png)
 
 #### Augument and non- augumented loss graph¶
 In this graph the non-augmented data (orange lines), the training loss decreases sharply , showing that the model is quickly learning the training data well. However, at aroun 10 epoch the validation loss starts to fluntuate and later began to increase, indicating overfitting.
@@ -66,8 +69,8 @@ In this graph the non-augmented data (orange lines), the training loss decreases
 For the augmented data (blue lines), the training loss decreases more steadily and does not drop as quickly. The validation loss for the augmented set were more stable, showing less overfitting and better generalization. This indicates that the model was able to learn well for data augmentation
 
 
-
-
+### test accuracy after aplluing transformation
+![](images/6.png)
 
 
 ## Conclusion
