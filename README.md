@@ -67,7 +67,7 @@ On the other hand, the augmented data (blue lines) shows more balanced learning.
 
 ![](images/4.png)
 
-#### Augument and non- augumented loss graph¶
+#### Augument and non- augumented loss graph
 In this graph the non-augmented data (orange lines), the training loss decreases sharply , showing that the model is quickly learning the training data well. However, at aroun 10 epoch the validation loss starts to fluntuate and later began to increase, indicating overfitting.
 
 For the augmented data (blue lines), the training loss decreases more steadily and does not drop as quickly. The validation loss for the augmented set were more stable, showing less overfitting and better generalization. This indicates that the model was able to learn well for data augmentation
@@ -81,8 +81,8 @@ For the augmented data (blue lines), the training loss decreases more steadily a
 
 ## Conclusion
 ### Achievements
-- Successfully developed a robust road sign recognition model using a Convolutional Neural Network (CNN), achieving an initial accuracy of 89% on the test dataset.
-- Enhanced the model's performance further by applying advanced data augmentation techniques, improving accuracy by an additional 2%, resulting in a final accuracy of 91%.
+- Successfully developed a robust road sign recognition model using a Convolutional Neural Network (CNN), achieving an initial accuracy of **89%** on the test dataset.
+- Enhanced the model's performance further by applying advanced data augmentation techniques, improving accuracy by an additional **2%**, resulting in a final accuracy of **91%.**
 - Built and evaluated the model on a diverse dataset collected through web scraping, ensuring it could handle real-world variations like lighting, angles, and image noise.
 - Utilized Gradient Norm Penalty (GnP) to improve training stability, leading to better generalization and smoother optimization.
 - Demonstrated strong precision across all road sign categories, reinforcing the model's reliability for practical applications.
