@@ -32,10 +32,12 @@ The dataset was created by scraping images from various online sources. These im
 
 
 
-<b><b>
+<br><br>
 
 ### After apply convolutional Neural network(CNN) on the data and training it with 30 epochs
+
 ![](images/1.png)
+
 #### Accuracy graph
 With this accuracy plot, it shows that training and validation accuracy over 30 epochs. At the beginning, both training and validation accuracy improve steadily. After around 7 to 10 epochs, the training accuracy continues to increase, but the validation accuracy was kind of fluctuating slightly. With this it shows that the model begin to overfit after around 15 20 epochs. The validation accuracy remains stable but was not improving , while the training accuracy continues to rise, indicating that the model is learning more about the training data but is finding it difficult to generalizing better to unseen data.
 
@@ -49,6 +51,8 @@ This behavior indicates overfitting. The model is learning to fit the training d
 ### test accuracy
 ![](images/5.png)
 
+
+<br><br>
 
 ### After applying Data Augumentation
 
@@ -73,6 +77,8 @@ For the augmented data (blue lines), the training loss decreases more steadily a
 ![](images/6.png)
 
 
+<br><br>
+
 ## Conclusion
 ### Achievements
 - Successfully developed a robust road sign recognition model capable of accurately classifying traffic signs such as "stop," "speed limits," and other categories under diverse conditions, including varying lighting, angles, and image quality.
@@ -88,6 +94,7 @@ For the augmented data (blue lines), the training loss decreases more steadily a
 - Augmentation is Crucial: Applying data augmentation techniques increased the model's robustness and ability to handle unseen scenarios, demonstrating the importance of synthetic data generation.
 - Error Analysis Drives Improvement: Analyzing misclassified images revealed weaknesses in the model, which informed adjustments to the data and model architecture.
 
+<br><br>
 
 ### At a Broad Level
 This project highlighted the importance of combining high-quality data collection, advanced deep learning techniques, and rigorous evaluation to build a real-world application. The approach demonstrated how a model could be made robust enough to handle real-world variability, making it suitable for applications like autonomous vehicles and traffic systems. The lessons learned are broadly applicable to building scalable and effective machine learning solutions for diverse problems.
