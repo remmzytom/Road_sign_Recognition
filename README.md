@@ -35,7 +35,7 @@ The dataset was created by scraping images from various online sources. These im
 <b><b>
 
 ### After apply convolutional Neural network(CNN) on the data and training it with 30 epochs
-![](images.png.1)
+![](images/png.1)
 #### Accuracy graph
 With this accuracy plot, it shows that training and validation accuracy over 30 epochs. At the beginning, both training and validation accuracy improve steadily. After around 7 to 10 epochs, the training accuracy continues to increase, but the validation accuracy was kind of fluctuating slightly. With this it shows that the model begin to overfit after around 15 20 epochs. The validation accuracy remains stable but was not improving , while the training accuracy continues to rise, indicating that the model is learning more about the training data but is finding it difficult to generalizing better to unseen data.
 
