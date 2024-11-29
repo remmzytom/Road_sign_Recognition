@@ -81,10 +81,11 @@ For the augmented data (blue lines), the training loss decreases more steadily a
 
 ## Conclusion
 ### Achievements
-- Successfully developed a robust road sign recognition model capable of accurately classifying traffic signs such as "stop," "speed limits," and other categories under diverse conditions, including varying lighting, angles, and image quality.
-- Built a high-performing Convolutional Neural Network (CNN) enhanced with Gradient Norm Penalty (GnP), which improved training stability and generalization.
-- Collected and processed a diverse dataset through web scraping, ensuring realistic representation of real-world scenarios.
-- Improved the model's reliability using advanced data augmentation techniques, regularization strategies, and evaluation metrics, achieving high precision scores across all classes.
+- Successfully developed a robust road sign recognition model using a Convolutional Neural Network (CNN), achieving an initial accuracy of 89% on the test dataset.
+- Enhanced the model's performance further by applying advanced data augmentation techniques, improving accuracy by an additional 2%, resulting in a final accuracy of 91%.
+- Built and evaluated the model on a diverse dataset collected through web scraping, ensuring it could handle real-world variations like lighting, angles, and image noise.
+- Utilized Gradient Norm Penalty (GnP) to improve training stability, leading to better generalization and smoother optimization.
+- Demonstrated strong precision across all road sign categories, reinforcing the model's reliability for practical applications.
 
 
 
